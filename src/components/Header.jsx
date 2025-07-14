@@ -1,12 +1,15 @@
-import viteLogo from '/vite.svg'
+import headLogo from '/img/dc-logo.png'
 
 export default function Header(){
 
 
 	return (
+
+
 		 <header>
-      <img src={viteLogo}/>
-      <h1>logo</h1>
+			<img src = {headLogo}/>
+      
+     
     </header>  
 	)
 
