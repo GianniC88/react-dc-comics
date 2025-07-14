@@ -1,3 +1,6 @@
+
+
+
 export default function Main(){
 
 return(
@@ -6,8 +9,13 @@ return(
 <div className="">
 	<h1 className ="text-light"> -- Content goes here -- </h1>
 </div>
+
+
 	</div>
 
 	</main>
+	
+	
+
 )
 }

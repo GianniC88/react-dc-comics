@@ -1,3 +1,13 @@
+
+import MainFooter from './MainFooter'
+
 export default function Footer() {
-  return <footer></footer>;
+  
+  return( 
+    <>
+   <MainFooter/>
+     
+  <footer/>
+  </>
+  )
 }

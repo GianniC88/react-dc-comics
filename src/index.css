@@ -4,6 +4,10 @@
 	box-sizing : border-box;
 }
 
+body{
+	font-family:Open Sans;
+}
+
 header{
 
 	nav {
@@ -31,6 +35,15 @@ header{
 
 main{
 	height:100px;
+	
+}
+
+.navIcon{
+	background-color:#0282F9;
+}
+
+footer{
+	background-image:url('/img/footer-bg.jpg')
 	
 }
 

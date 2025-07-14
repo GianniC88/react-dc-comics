@@ -8,17 +8,17 @@ export default function Header(){
 	<header>
 		<div className = "containe d-flex justify-content-between ">
 		<img className ="p-3" src = {headLogo}/>
-     	   <nav class="navbar navbar-expand">
-				<div class="nav navbar-nav  me-5">
-					<a class="" href="#">Caracters</a>
-					<a class="active" href="#">Commics</a>
-					<a class="" href="#">Movies</a>
-					<a class="" href="#">TV</a>
-					<a class="" href="#">Games</a>
-					<a class="" href="#">Videos</a>
-					<a class="" href="#">Fans</a>
-					<a class="" href="#">News</a>
-					<a class="" href="#">Shop</a>
+     	   <nav className="navbar navbar-expand">
+				<div className="nav navbar-nav  me-5">
+					<a className="" href="#">Caracters</a>
+					<a className="active" href="#">Commics</a>
+					<a className="" href="#">Movies</a>
+					<a className="" href="#">TV</a>
+					<a className="" href="#">Games</a>
+					<a className="" href="#">Videos</a>
+					<a className="" href="#">Fans</a>
+					<a className="" href="#">News</a>
+					<a className="" href="#">Shop</a>
 				</div>
 	  	    </nav>
 		</div>
