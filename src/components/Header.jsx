@@ -1,7 +1,63 @@
 import headLogo from '/img/dc-logo.png'
 
 export default function Header(){
+ const menù = [
+	{
+		id : 1,
+		active: false,
+		href: '#',
+		text: 'Caracters',
+	},
+	{
+		id: 2,
+		active: false,
+		href: '#',
+		text: 'Commics',
+	},
+	{
+		id: 3,
+		active: false,
+		href: '#',
+		text: 'Movies',
+	},
+	{
+		id: 4,
+		active: false,
+		href: '#',
+		text: 'TV',
+	},
+	{
+		id: 5,
+		active: false,
+		href: '#',
+		text: 'Games',
+	},
+	{
+		id: 6,
+		active: false,
+		href: '#',
+		text: 'Videos',
+	},
+	{
+		id: 7,
+		active: false,
+		href: '#',
+		text: 'Fans',
+	},
+	{
+		id: 8,
+		active: false,
+		href: '#',
+		text: 'News',
+	},
+	{
+		id: 9,
+		active: false,
+		href: '#',
+		text: 'Shop',
+	}
 
+ ]
 
 	return (
 
@@ -10,15 +66,14 @@ export default function Header(){
 		<img className ="p-3" src = {headLogo}/>
      	   <nav className="navbar navbar-expand">
 				<div className="nav navbar-nav  me-5">
-					<a className="" href="#">Caracters</a>
-					<a className="active" href="#">Commics</a>
-					<a className="" href="#">Movies</a>
-					<a className="" href="#">TV</a>
-					<a className="" href="#">Games</a>
-					<a className="" href="#">Videos</a>
-					<a className="" href="#">Fans</a>
-					<a className="" href="#">News</a>
-					<a className="" href="#">Shop</a>
+					{
+						menù.map((item)=>{
+							return(
+								<a key={item.id} className = {item.active? 'active' : ''} href={item.href}> {item.text} </a>
+							)
+						})
+					}
+					
 				</div>
 	  	    </nav>
 		</div>
