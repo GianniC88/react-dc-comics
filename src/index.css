@@ -33,12 +33,24 @@ main {
 }
 
 footer {
-  background-image: url('/img/footer-bg.jpg');
- min-height:500px;
+  background-image: url('/img/dc-logo-bg.png'), url('/img/footer-bg.jpg');
+  background-repeat:no-repeat;
+  background-position: right bottom;
 }
 
 
 li{
 
   color:white;
+ }
+
+
+ footer ul  {
+    list-style: none;
+    padding: 0;
+    a {
+      color: white;
+      text-decoration:none;
+      text-transform: uppercase;
+    }
  }
