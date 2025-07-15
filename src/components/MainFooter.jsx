@@ -34,14 +34,14 @@ const icon = [
 export default function MainFooter() {
   return (
     <>
-      <div className=" bg-primary">
+      <div className=" bg-primary p-4">
         <div class="container">
         <div className="row justify-content-between align-items-center">
           {icon.map((item) => {
             return (
-              <a key={item.id} className="text-white fs-6 col-2 text-decoration-none" href={item.href}>
+              <a key={item.id} className="text-white col-2  text-decoration-none" href={item.href}>
                 {item.text}
-                <img className="text-white" width="25px" src={item.src} alt={item.name} />{item.name}
+                <img className="text-white me-3" width="35px" src={item.src} alt={item.name} />{item.name}
               </a>
             );
           })}

@@ -10,10 +10,11 @@ export default function Footer() {
      
   <footer>
     <BodyFooter/>
-    <BottomFooter/>
+   
 
 
   </footer>
+   <BottomFooter/>
 
   </>
   )
