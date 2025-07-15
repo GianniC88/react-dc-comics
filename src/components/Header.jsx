@@ -10,7 +10,7 @@ export default function Header(){
 	},
 	{
 		id: 2,
-		active: false,
+		active: true,
 		href: '#',
 		text: 'Commics',
 	},

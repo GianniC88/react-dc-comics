@@ -1,5 +1,6 @@
 
 import MainFooter from './MainFooter'
+import BodyFooter from './BodyFooter'
 
 export default function Footer() {
   
@@ -7,7 +8,11 @@ export default function Footer() {
     <>
    <MainFooter/>
      
-  <footer/>
+  <footer>
+    <BodyFooter/>
+
+  </footer>
+
   </>
   )
 }

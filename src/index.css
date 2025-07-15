@@ -32,6 +32,13 @@ main {
   background-color: #0282f9;
 }
 
-Footer {
+footer {
   background-image: url('/img/footer-bg.jpg');
+ min-height:500px;
 }
+
+
+li{
+
+  color:white;
+ }
