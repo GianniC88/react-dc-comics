@@ -35,7 +35,9 @@ main {
 footer {
   background-image: url('/img/dc-logo-bg.png'), url('/img/footer-bg.jpg');
   background-repeat:no-repeat;
-  background-position: right bottom;
+  background-position: right bottom, center;
+  margin:0
+  
 }
 
 

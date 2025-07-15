@@ -1,7 +1,7 @@
 
 import MainFooter from './MainFooter'
 import BodyFooter from './BodyFooter'
-
+import BottomFooter from './BottomFooter'
 export default function Footer() {
   
   return( 
@@ -10,6 +10,8 @@ export default function Footer() {
      
   <footer>
     <BodyFooter/>
+    <BottomFooter/>
+
 
   </footer>
 
