@@ -25,7 +25,6 @@ header {
 }
 
 main {
-  height: 100px;
 }
 
 .navIcon {
@@ -75,11 +74,11 @@ footer ul {
   height: 50px;
 }
 
-.BottomFooter {
-  background-color: #303030;
-}
-
 .follow {
   margin-top: 10px;
   color: #0084fc;
+}
+
+.card-img-top {
+  width: 50%;
 }
