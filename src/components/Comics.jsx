@@ -179,24 +179,26 @@ export default function Comics() {
   return (
     <div className="jumbotron jumbotron-fluid">
       <div className="container">
-        <div className="row">
-          <div className="card">
-            <img
-              src="https://imgs.search.brave.com/aUNyvZBXUulb963JH7KnQm9AMr8bcBoLsiHREOqayIU/rs:fit:612:612:1/g:ce/aHR0cHM6Ly9pNS53/YWxtYXJ0aW1hZ2Vz/LmNvbS9hc3IvOWZm/ZWYzMDMtMGZhYy00/OGRkLTg3ODctYzUy/NTk0MDk2ODAwXzEu/MTc1ZDk1Mjg2NzY0/OGEwOTczMTY2NGMy/MTE1NjNlYWIuanBl/Zz9vZG5XaWR0aD02/MTImb2RuSGVpZ2h0/PTYxMiZvZG5CZz1m/ZmZmZmY"
-              alt=""
-            />
-
-            <div className="card-body">
-              <h4 className="card-title">{Comics.title}</h4>
-              <p className="card-text">{Comics.description}</p>
-              <p className="card-text">Price: {Comics.price}</p>
-              <p className="card-text">Series: {Comics.series}</p>
-              <p className="card-text">Sale Date: {Comics.sale_date}</p>
-              <p className="card-text">Type: {Comics.type}</p>
-              <p className="card-text">Artists: {Comics.artists.join(", ")}</p>
-              <p className="card-text">Writers: {Comics.writers.join(", ")}</p>
-            </div>
-          </div>
+        <div className="row ">
+          {comics.map(({ id, title, thumb }) => {
+            return (
+              <div key={id} className="col ">
+                <div className="card">
+                  <img className="card-img-top" src={thumb} alt="" />
+                  <div className="card-body">
+                    <h4 className="card-title">{title}</h4>
+                    {/* <p>Description{description}</p> */}
+                    {/* <p>Price:{`$${price}`}</p>
+                      <p>Series: {series}</p>
+                      <p>Sale Date: {sale_date}</p>
+                      <p>Type: {type}</p>
+                      <p>Artists: {artists.join(", ")}</p>
+                      <p>Writers: {writers.join(", ")}</p> */}
+                  </div>
+                </div>
+              </div>
+            );
+          })}
         </div>
       </div>
     </div>

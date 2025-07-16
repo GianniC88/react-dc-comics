@@ -6,7 +6,7 @@ export default function Main() {
     <main>
       <Jumbotron />
 
-      <div className="">
+      <div>
         <Comics />
       </div>
     </main>
