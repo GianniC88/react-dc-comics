@@ -177,14 +177,15 @@ const comics = [
 
 export default function Comics() {
   return (
-    <div className="jumbotron jumbotron-fluid bg-dark">
+    <div className="jumbotron jumbotron-fluid bg-dark p-5 position-relative ">
       <div className="container">
         <div className="row ">
+          <h4 className="currentSeries">CURRENT SERIE</h4>
           {comics.map(({ id, title, thumb }) => {
             return (
-              <div key={id} className="col-2 ">
+              <div key={id} className="col-2 mb-5">
                 <div
-                  className="card bg-transparent align-items-center
+                  className="card bg-transparent align-items-center 
  "
                 >
                   <img className="card-img-top" src={thumb} alt="" />

@@ -82,3 +82,12 @@ footer ul {
 .card-img-top {
   width: 50%;
 }
+
+.currentSeries {
+  border: 2px solid #0282f9;
+  font-size: 22px;
+  margin-top: -48px;
+  position: absolute;
+  color: white;
+  width: 200px;
+}
