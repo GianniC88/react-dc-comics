@@ -203,6 +203,7 @@ export default function Comics() {
               </div>
             );
           })}
+          <h4 className="loadMore">LOAD MORE</h4>
         </div>
       </div>
     </div>

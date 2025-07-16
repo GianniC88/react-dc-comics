@@ -84,10 +84,22 @@ footer ul {
 }
 
 .currentSeries {
+  background-color: #0084fc;
   border: 2px solid #0282f9;
   font-size: 22px;
   margin-top: -48px;
   position: absolute;
   color: white;
   width: 200px;
+}
+.loadMore {
+  background-color: #0084fc;
+  border: 2px solid #0282f9;
+  font-size: 22px;
+
+  color: white;
+  width: 200px;
+  text-align: center;
+  align-content: center;
+  margin-left: 40%;
 }
