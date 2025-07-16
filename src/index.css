@@ -31,56 +31,55 @@ main {
 .navIcon {
   background-color: #0282f9;
 }
-
-footer {
-  background-image: url('/img/dc-logo-bg.png'), url('/img/footer-bg.jpg');
-  background-repeat:no-repeat;
-  background-position: right bottom, center;
-  background-size:50%,cover;
-  margin:0
-  
+.BackgroundImage {
+  background-image: url("/img/jumbotron.jpg");
+  height: 500px;
+  background-size: cover;
 }
 
+footer {
+  background-image: url("/img/dc-logo-bg.png"), url("/img/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: right bottom, center;
+  background-size: 50%, cover;
+  margin: 0;
+}
 
-li{
-
-  color:white;
- }
-
-
- footer ul  {
-    list-style: none;
-    padding: 0;
-    a {
-      color: white;
-      text-decoration:none;
-      text-transform: uppercase;
-    }
- }
- .social a {
-  padding:6px;
- }
-
- .button{
-   
-  background-color:  #303030; 
-  border:2px solid #165EA2 ;
+li {
   color: white;
-  padding:1rem;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+}
+.social a {
+  padding: 6px;
+}
+
+.button {
+  background-color: #303030;
+  border: 2px solid #165ea2;
+  color: white;
+  padding: 1rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   margin-bottom: 16px;
   margin-top: 16px;
-      height: 50px;
+  height: 50px;
+}
 
- }
+.BottomFooter {
+  background-color: #303030;
+}
 
-  .BottomFooter{
-  background-color:  #303030;
- }
-
- .follow{
-  margin-top:10px;
-  color:#0084FC;
- }
+.follow {
+  margin-top: 10px;
+  color: #0084fc;
+}

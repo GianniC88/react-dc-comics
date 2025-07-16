@@ -35,24 +35,33 @@ export default function MainFooter() {
   return (
     <>
       <div className=" bg-primary p-4">
-        <div class="container">
-        <div className="row justify-content-between align-items-center">
-          {icon.map((item) => {
-            return (
-              <a key={item.id} className="text-white col-2  text-decoration-none" href={item.href}>
-                {item.text}
-                <img className="text-white me-3" width="35px" src={item.src} alt={item.name} />{item.name}
-              </a>
-            );
-          })}
+        <div className="container">
+          <div className="row justify-content-between align-items-center">
+            {icon.map((item) => {
+              return (
+                <a
+                  key={item.id}
+                  className="text-white col-2  text-decoration-none"
+                  href={item.href}
+                >
+                  {item.text}
+                  <img
+                    className="text-white me-3"
+                    width="35px"
+                    src={item.src}
+                    alt={item.name}
+                  />
+                  {item.name}
+                </a>
+              );
+            })}
 
-          {/*	<a className="text-white row" href="#"><img src="/img/buy-comics-digital-comics.png"></img>digital comics</a>
+            {/*	<a className="text-white row" href="#"><img src="/img/buy-comics-digital-comics.png"></img>digital comics</a>
 					<a className="text-white row" href="#"><img src="/img/buy-comics-merchandise.png"></img>DC Merchandise</a>
 					<a className="text-white row" href="#"><img src="/img/buy-comics-subscriptions.png"></img>Subsription</a>
 					<a className="text-white row" href="#"><img src="/img/buy-comics-shop-locator.png"></img>Comic Shop Locator</a>
 					<a className="text-white row" href="#"><img src="/img/buy-dc-power-visa.svg.png"></img>DC power visa</a>*/}
-
-        </div>
+          </div>
         </div>
       </div>
     </>
