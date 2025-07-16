@@ -1,21 +1,16 @@
+import MainFooter from "./MainFooter";
+import BodyFooter from "./BodyFooter";
+import BottomFooter from "./BottomFooter";
 
-import MainFooter from './MainFooter'
-import BodyFooter from './BodyFooter'
-import BottomFooter from './BottomFooter'
 export default function Footer() {
-  
-  return( 
+  return (
     <>
-   <MainFooter/>
-     
-  <footer>
-    <BodyFooter/>
-   
+      <MainFooter />
 
-
-  </footer>
-   <BottomFooter/>
-
-  </>
-  )
+      <footer>
+        <BodyFooter />
+      </footer>
+      <BottomFooter />
+    </>
+  );
 }

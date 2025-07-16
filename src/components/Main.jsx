@@ -4,16 +4,24 @@
 export default function Main(){
 
 return(
-<main className = "bg-dark d-flex align-items-center">
-	<div className = "container ">
-<div className="">
-	<h1 className ="text-light"> -- Content goes here -- </h1>
+<main className = "bg-dark">
+
+
+
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+	<h1 class=" pt-4 display-5 text-light" >-- Content goes here -- </h1>
+	
+  </div>
 </div>
 
 
-	</div>
+
+
+
 
 	</main>
+	
 	
 	
 
